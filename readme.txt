@@ -3,8 +3,7 @@ Contributors: elmotheelk
 Donate link: http://myph3.sf.net/
 Tags: images, gallery, random
 Requires at least: 2.0.0
-Tested up to: 2.1.2
-Stable tag: 1.1
+Stable tag: 1.1.1
 
 Reads from your myPh3 gallery and shows a random image from it on you Wordpress blog
 

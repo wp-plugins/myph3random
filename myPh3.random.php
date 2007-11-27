@@ -4,7 +4,7 @@
 Plugin Name: myPh3 random image
 Plugin URI: http://myph.sf.net
 Description: Displays a random image from all of your myPh3 image gallery albums.
-Version: 1.1
+Version: 1.1.1
 Author: Eric Kok
 Author URI: http://myph.sf.net
 */
@@ -35,7 +35,7 @@ function myPh3_get_random() {
   $siteDir = get_option('myPh3.siteDir');
   if (substr($siteDir, -1) != '/') 
     $siteDir .= '/';
-  require_once($siteDir . 'myPh3.config.php');
+  require($siteDir . 'myPh3.config.php');
   
   // Try to read from the myPh3 thumbnail directory
   $dirList = @opendir($siteDir . $m3['config']['thumbDir']);
